@@ -1,0 +1,48 @@
+*::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #dbdbdb;
+    border-radius: 5px;
+}
+
+.container {
+    position: relative;
+    margin: 50px auto;
+    border: 2px solid #dbdbdb;
+    width: 600px;
+    height: 800px;
+    background-color: white;
+    overflow: hidden;
+}
+
+input,
+textarea {
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+input:focus,
+textarea:focus {
+    background-color: #fefefe;
+
+}
+
+button {
+    border: 1px solid #dbdbdd;
+    padding: 10px;
+    background-color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fafafa;
+}
+
+button:active {
+    background-color: #f0f0f0;
+}
